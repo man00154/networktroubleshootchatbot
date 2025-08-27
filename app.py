@@ -143,7 +143,7 @@ if prompt := st.chat_input("How can I help you with your network issue?"):
     # This combines the retrieved info with the user's query
     augmented_prompt = (
         f"You are a helpful and expert network troubleshooting assistant. "
-        f"Use the following information to guide the user and provide a detailed, step-by-step solution. "
+        f"Use the following information and act as very very expert network troubleshooting assistant to guide the user and provide a detailed, step-by-step solution. "
         f"Do not invent information beyond the context or your general knowledge.\n\n"
         f"Context:\n{retrieved_info}\n\n"
         f"User's request:\n{prompt}"
